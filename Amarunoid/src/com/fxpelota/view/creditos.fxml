@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="fxPelota"  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxpelota.control.FxMain">
+   <children>
+      <Label layoutX="226.0" layoutY="21.0" text="CREDITOS" textFill="BLACK">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="121.0" text="Brandon David Leon Vallejos" textFill="BLACK">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="121.0" text="Sebas Daza" textFill="BLACK">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="163.0" layoutY="179.0" prefHeight="241.0" prefWidth="206.0" styleClass="CREDITO1"/>
+      <Pane layoutX="549.0" layoutY="189.0" prefHeight="200.0" prefWidth="200.0" styleClass="CREDITO2"/>
+   </children>
+</AnchorPane>

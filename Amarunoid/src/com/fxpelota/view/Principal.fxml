@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="paneCancha1" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fxpelota.control.FxMain">
+   <children>
+      <Button layoutX="446.0" layoutY="525.0" mnemonicParsing="false" onAction="#botonIniciar" prefHeight="68.0" prefWidth="108.0" text="INICIAR" />
+   </children>
+</AnchorPane>

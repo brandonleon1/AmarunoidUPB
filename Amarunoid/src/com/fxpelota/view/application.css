@@ -1,0 +1,66 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.fxPelota {
+	-fx-background-color: black;
+}
+
+.canvasCancha {
+	-fx-border-color: black;
+	-fx-border-width: 1pt;
+	-fx-background-color: white;
+}
+
+.paneCancha {
+		
+ 	-fx-background-image: url("/com/fxpelota/images/JUEGO.jpeg");
+-fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+.CREDITO1 {
+		
+ 	-fx-background-image: url("file:///C:/Users/TITAN/Desktop/Nueva%20carpeta/Amarunoid/src/com/fxpelota/images/14925249_1563686506982219_5850775818996190929_n.jpg");
+-fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+.CREDITO2 {
+		
+ 	-fx-background-image: url("file:///C:/Users/TITAN/Desktop/Nueva%20carpeta/Amarunoid/src/com/fxpelota/images/sebas.jpg");
+-fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+.paneCancha1 {
+		
+ 	-fx-background-image: url("/com/fxpelota/images/INCIO.jpeg");
+	-fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.round-red {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+
+}
+
+.round-red:pressed {
+    -fx-background-color: linear-gradient(#be1d00, #ff5400);
+}
+
+
+
+.boton {
+	-fx-font-size: 12pt;
+}
+
+.pane{
+    -fx-background-image: url("background_image.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
